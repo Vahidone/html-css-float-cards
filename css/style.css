@@ -39,6 +39,7 @@ p{
   float: left;
   width: calc(100% / 3);
   padding: 20px;
+  min-width: 350px;
 }
 .card{
   background-color: #100E17;
