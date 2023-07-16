@@ -13,6 +13,11 @@ body {
   max-width: 1200px;
   margin: 0 auto ;
 }
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
 
 #section-up{
   text-align: center;
@@ -26,4 +31,40 @@ body {
 }
 p{
   color: rgb(64, 62, 62);
+}
+#section-down{
+  padding-top: 40px;
+}
+.row .column{
+  float: left;
+  width: calc(100% / 3);
+  padding: 20px;
+}
+.card{
+  background-color: #100E17;
+  color: white;
+}
+.card img{
+  width: 100px;
+}
+.card img,
+.contenuti{
+  float: left;
+}
+.card .contenuti span{
+  display: block;
+  font-size: 16px;
+}
+.card .contenuti h3,
+.card .contenuti span {
+  margin-top: 5px;
+}
+.card .contenuti span{
+  margin-bottom: 5px;
+}
+
+.card .contenuti a{
+  color: #4CAECF;
+  font-size: 16px;
+  text-decoration: none;
 }
