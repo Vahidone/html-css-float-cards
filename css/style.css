@@ -53,6 +53,9 @@ p{
 .contenuti{
   float: left;
 }
+.card .contenuti{
+  margin-left: 15px;
+}
 .card .contenuti span{
   display: block;
   font-size: 16px;
